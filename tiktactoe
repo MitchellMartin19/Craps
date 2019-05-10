@@ -1,0 +1,104 @@
+#! /usr/bin/env python
+__author__ = "Mitchell Martin"
+
+
+
+if box == 1
+        button1.config(text="O")
+
+        bx1="O"
+elif box == 1
+        button1.config(text="X")
+
+        bx1="X"
+elif box == 2
+        button2.config(text="O")
+
+        bx2="O"
+elif box == 2
+        button2.config(text="X")
+
+        bx2="X"
+elif box == 3:
+        button3.config(text="O")
+
+        bx3="O"
+elif box == 3:
+        button3.config(text="X")
+
+        bx3="X"
+elif box == 4
+        button4.config(text="O")
+
+        bx4="O"
+elif box == 4
+        button4.config(text="X")
+
+        bx4="X"
+elif box == 5
+        button5.config(text="O")
+
+        bx5="O"
+elif box == 5
+        button5.config(text="X")
+
+        bx5="X"
+elif box == 6
+        button6.config(text="O")
+
+        bx6="O"
+elif box == 6
+        button6.config(text="X")
+
+        bx6="X"
+elif box == 7
+        button7.config(text="O")
+
+        bx7="O"
+elif box == 7
+        button7.config(text="X")
+
+        bx7="X"
+elif box == 8
+        button8.config(text="O")
+
+        bx8="O"
+elif box == 8
+        button8.config(text="X")
+
+        bx8="X"
+elif box == 9
+        button9.config(text="O")
+
+        bx9="O"
+elif box == 9
+        button9.config(text="X")
+
+        bx9="X"
+
+if bx1 == bx2 == bx3 =="O" or bx4 == bx5 == bx6 =="O" or bx7 == bx8 == bx9 =="O":
+        player = "O"
+        messagebox._show("Game end", "player: " + player + " wins")
+
+elif bx1 == bx2 == bx3 =="X" or bx4 == bx5 == bx6 =="X" or bx7 == bx8 == bx9 =="X":
+        player = "X"
+        messagebox._show("Game end", "player: " + player + " wins")
+
+elif bx1 == bx4 == bx7 =="O" or bx2 == bx5 == bx8 =="O" or bx3 == bx6 == bx9 =="O":
+        player = "O"
+        messagebox._show("Game end", "player: " + player + " wins")
+
+elif bx1 == bx4 == bx7 =="X" or bx2 == bx5 == bx8 =="X" or bx3 == bx6 == bx9 =="X":
+        player = "X"
+        messagebox._show("Game end", "player: " + player + " wins")
+
+elif bx1 == bx5 == bx9 =="O" or bx3 == bx5 == bx7 =="O":
+        player = "O"
+        messagebox._show("Game end", "player: " + player + " wins")
+
+elif bx1 == bx5 == bx9 =="X" or bx3 == bx5 == bx7 =="X":
+        player = "X"
+        messagebox._show("Game end", "player: " + player + " wins")
+
+elif cnt == 9:
+        messagebox._show("Game end", "Draw")
